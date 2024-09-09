@@ -41,3 +41,11 @@ button{
     background-color: rgba(0,0,0,.75);
 
 }
+.display{
+    text-align: right;
+    color: black;
+    font-size: 1.4rem;
+}
+button:hover{
+    background-color: rgba(255,255,255,.9);
+}
