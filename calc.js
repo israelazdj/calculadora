@@ -8,8 +8,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   numeros.forEach(function (btn) {
     btn.addEventListener("click", function () {
-      agregarNumer(btn.innerText);
+      //agregarNumer(btn.innerText);
       alert(btn.innerText);
     });
+  });
+
+  operadores.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      //selecionaroperacion(btn.innerText);
+      alert(btn.innerText);
+    });
+  });
+
+  resultado_btn.addEventListener("click", function () {
+    calcular();
+    actualizardisplay();
+  });
+  limpiar.addEventListener("click", function () {
+    clear();
+    actualizardisplay();
   });
 });
